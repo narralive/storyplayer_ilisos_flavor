@@ -1,0 +1,256 @@
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-Thin.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-ThinItalic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-UltraLight.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-UltraLightItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-Medium.otf') format('opentype');
+    font-weight: bolder;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-MediumItalic.otf') format('opentype');
+    font-weight: bolder;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'New Hero';
+    src: url('assets/fonts/New Hero/NewHero-ExtraBold.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+// global config
+$body-bg: #f9f8f6 !important;
+$body-font-family: 'New Hero', Fallback, sans-serif !important;
+$body-font-weight: 300 !important;
+$body-font-color: #4c5b5f !important;
+
+// player topbar
+$topbar-bg: #4c5b5f !important;
+$topbar-font-family: 'New Hero', Fallback, sans-serif !important;
+$topbar-font-color: #ffffff !important;
+$topbar-font-weight: 300 !important;
+
+// player controls wrapper
+$player-footer-bg: transparent;
+
+// screen header
+$screen-header-bg: transparent;
+$screen-header-border-bottom: 1px solid #4c5b5f !important;
+$screen-header-font-family: 'New Hero', Fallback, sans-serif !important;
+$screen-header-font-color: unset;
+$screen-header-font-weight: 300 !important;
+
+// prompt
+$prompt-font-color: #4c5b5f !important;
+$prompt-font-weight: 300 !important;
+
+// list and tile items
+$list-item-bg: #f9f8f6 !important;
+$list-item-hover-bg: rgba(173, 173, 158, 0.502) !important;
+$list-item-checked-bg: rgba(173, 173, 158, 0.502) !important;
+$list-item-border: 2px solid #adad9e;
+$list-item-border-radius: 3px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(112, 157, 51, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #4c5b5f !important;
+
+// guideme
+$guideme-prompt-bg: transparent;
+
+// redirect '' to /d35b321551d0ea7e0f904b38fd011a88
+// db = "experiences"
+// deployment path /dev/hippocrates-garden
+// remove logo from the top bar
+// in the index, give a title "Hippocrates Garden"
+
+// add extra paths for each dialogue to the routing module
+// {
+//   path: '0',
+//   redirectTo: '/d35b321551d0ea7e0f904b38fd011a88'
+// },
+// {
+//   path: '1',
+//   redirectTo: '/d35b321551d0ea7e0f904b38fd0147bd'
+// },
+// {
+//   path: '2',
+//   redirectTo: '/d35b321551d0ea7e0f904b38fd0156d8'
+// },
+// {
+//   path: '3',
+//   redirectTo: '/d35b321551d0ea7e0f904b38fd01398f'
+// },
+// {
+//   path: '4',
+//   redirectTo: '/d35b321551d0ea7e0f904b38fd0129a5'
+// },
+// {
+//   path: '5',
+//   redirectTo: '/d35b321551d0ea7e0f904b38fd016d64'
+// },
+// {
+//   path: '6',
+//   redirectTo: '/d35b321551d0ea7e0f904b38fd016535'
+// },
+// {
+//   path: '7',
+//   redirectTo: '/d35b321551d0ea7e0f904b38fd015729'
+// },
+// remove the "experience" part of the path serving the experiences
+
+// add the New Hero font directory to the assets (you can find it in the project's directory in narralive GDrive)
+
+// styles
+// add font-weight equal to the default to the branch items
+// .branch, .answer {
+//   ...
+//   font-weight: $body-font-weight;
+//   ...
+
+// player component html
+// comment out the logo
+// add the text-uppercase class to the esperienceTitle span
+// add the text-uppercase class to the title div
+
+// simple menu ts:
+// add a boolean var isFirstScreen: boolean = false;
+// set the isFirstScreen variable at the end of the ngOnInit as follows:
+// this.isFirstScreen = (this.playerService.getPlayBackPreviewState().partsVisited.size === 1);
+
+// simple menu html:
+// replace p-0 with img-p in the div that contains the image
+// <div *ngIf="data.image" class="h-100 w-100 img-p d-flex justify-content-around align-self-center" style="min-height: 50px;">
+//
+// add the text-uppercase class to the text in both list items and tiles
+// make the text in the list items centered when the first screen (choose language) of the experience is displayed
+// <div class="col m-0 text-uppercase" [ngClass]="{'text-center': isFirstScreen}">{{branch.text}}</div>
+//
+// at the end of the list and the tiles layout divs, add a div for the ikos logo:
+// <div *ngIf="data.layout === 'list'; else tilesMenu" class="w-100 d-flex justify-content-center row row-cols-1">
+//     ...
+//     <div *ngIf="isFirstScreen" class="mt-3 text-center">
+//         <img width="100" src="assets/images/3_Logo_Aria_RGB.png">
+//     </div>
+// <div>
+// <ng-template #tilesMenu>
+//     ...
+//     <div *ngIf="isFirstScreen" class="mt-3 text-center">
+//         <img width="100" src="assets/images/3_Logo_Aria_RGB.png">
+//     </div>
+// </ng-template>
+//
+// in tiles div, change row-cols-2 to row-cols-1
+// in tile text div remove the inline style (style="min-height: 80px;")
+
+// simple menu scss:
+// in .tile-img-wrapper class, set height to auto
+// in .custom-p for small screens set padding: 20px 25px;
+// add img-p class for small screens (min-width: 200px):
+// .img-p {
+//      padding: 25px 25px 0 25px;
+// }
+// and for medium sized screens (min-width: 768px):
+// .img-p {
+//      padding: 0;
+// }
+
+// simple screen html:
+// replace p-0 with img-p in the div that contains the image
+// <div *ngIf="data.image && dominantElement !== 'text'"
+//      class="h-100 w-100 img-p d-flex justify-content-around align-self-center" style="min-height: 50px;">
+
+
+// simple screen scss:
+// in .custom-p for small screens (min-width: 200px) set padding: 20px 25px;
+// add img-p class for small screens (min-width: 200px):
+// .img-p {
+//      padding: 25px 25px 0 25px;
+// }
+// and for medium sized screens (min-width: 768px):
+// .img-p {
+//      padding: 0;
+// }
+// 
+// to make the app portable
+// 1. use the couch-attachment-to-file script to export selected experiences and store their media separately as files
+// 2. load experiences as json files into an assets folder (eg. experiences/)
+// 3. load their media into a sub-folder (eg. experiences/media/)
+// 4. import HttpClientModule to AppModule
+// 5. in couch-api service add HttpClient in the constructor and make the getExperience function return:
+//      this.http.get<Experience>('assets/experiences/' + id + '.json').toPromise();
+// 6. make the getAssetURL function in asset-manager service return:
+//      'assets/experiences/media/' + assetId;
+// 7. deployment path /

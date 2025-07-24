@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+// global config
+$body-bg: #dfd6ae !important;
+$body-font-family: 'Inter', sans-serif !important;
+$body-font-weight: 500 !important;
+$body-font-color: #1f398e !important;
+
+// player topbar
+$topbar-bg: #a3c9a0 !important;
+$topbar-font-family: 'Inter', sans-serif !important;
+$topbar-font-color: #1f398e !important;
+$topbar-font-weight: 600 !important;
+
+// player controls wrapper
+$player-footer-bg: transparent;
+
+// screen header
+$screen-header-bg: transparent;
+$screen-header-border-bottom: 1px solid #a3c9a0 !important;
+$screen-header-font-family: 'Inter', sans-serif !important;
+$screen-header-font-color: unset;
+$screen-header-font-weight: 600 !important;
+
+// prompt
+$prompt-font-color: unset;
+$prompt-font-weight: 500 !important;
+
+// list and tile items
+$list-item-bg: rgba(89, 187, 152, 0.4) !important;
+$list-item-hover-bg: rgba(89, 187, 152, 0.7) !important;
+$list-item-checked-bg: rgba(89, 187, 152, 0.9) !important;
+$list-item-border: unset;
+$list-item-border-radius: 3px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(112, 157, 51, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #1f398e !important;
+
+// guideme
+$guideme-prompt-bg: transparent;
+
+// redirect ** to /experience/c4313c264e0a895e11461eb5c001a541
+// db = "experiences"
+// deployment path /dev/arsinoe
+// arsinoe-logo-2x.png
+// width="140" - large logo layout
+// add to the experience-title  class "align-middle"
+// in the index, give a title "Arsinoe Story Player"

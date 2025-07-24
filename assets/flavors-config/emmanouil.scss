@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@400;500;600;700&display=swap');
+
+// global config
+$body-bg: #e7d6c5 !important;
+$body-font-family: 'Roboto', sans-serif !important;
+$body-font-weight: 400 !important;
+$body-font-color: #42414d !important;
+
+// player topbar
+$topbar-bg: #42414d !important;
+$topbar-font-family: 'Commissioner', sans-serif !important;
+$topbar-font-color: #eee6d6 !important;
+$topbar-font-weight: 500 !important;
+
+// player controls wrapper
+$player-footer-bg: transparent;
+
+// screen header
+$screen-header-bg: transparent;
+$screen-header-border-bottom: 1px solid #746464 !important;
+$screen-header-font-family: 'Roboto', sans-serif !important;
+$screen-header-font-color: unset;
+$screen-header-font-weight: 500 !important;
+
+// prompt
+$prompt-font-color: unset;
+$prompt-font-weight: 400 !important;
+
+// list and tile items
+$list-item-bg: rgba(192, 166, 143, 0.5) !important;
+$list-item-hover-bg: #c0a68f !important;
+$list-item-checked-bg: rgba(0, 123, 255, 0.1) !important;
+$list-item-border: 1px solid #746464 !important;
+$list-item-border-radius: 3px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(112, 157, 51, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #42414d !important;
+
+// guideme
+$guideme-prompt-bg: transparent;
+
+
+// el
+// redirect ** to /experience/9d82ed1b356312b0080066cc952fdd1b
+// db = "experiences"
+// deployment path /dev/emmanouil/el
+// logo: museum.png
+// width="160" - large logo layout
+
+// en
+// redirect ** to /experience/9d82ed1b356312b0080066cc952fe66c
+// db = "experiences"
+// deployment path /dev/emmanouil/en
+// logo: museum-en.png
+// width="160" - large logo layout

@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+
+// global config
+$body-bg: #cfb698 !important;
+$body-font-family: 'Ubuntu', sans-serif !important;
+$body-font-weight: 400 !important;
+$body-font-color: #083e62 !important;
+
+// player topbar
+$topbar-bg: #083e62 !important;
+$topbar-font-family: 'Ubuntu', sans-serif !important;
+$topbar-font-color: #cfb698 !important;
+$topbar-font-weight: 500 !important;
+
+// player controls wrapper
+$player-footer-bg: transparent;
+
+// screen header
+$screen-header-bg: transparent;
+$screen-header-border-bottom: 1px solid #083e62 !important;
+$screen-header-font-family: 'Ubuntu', sans-serif !important;
+$screen-header-font-color: unset;
+$screen-header-font-weight: 600 !important;
+
+// prompt
+$prompt-font-color: #994d2b !important;
+$prompt-font-weight: 400 !important;
+
+// list and tile items
+$list-item-bg: rgba(40, 141, 137, 0.4) !important;
+$list-item-hover-bg: rgba(40, 141, 137, 0.7) !important;
+$list-item-checked-bg: rgba(102, 114, 92, 0.7) !important;
+$list-item-border: 2px solid #66725C;
+$list-item-border-radius: 3px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(112, 157, 51, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #083e62 !important;
+
+// guideme
+$guideme-prompt-bg: transparent;
+
+
+// redirect ** to /experience/d857b7476810e70452124c2a8d001ab1
+// db = "experiences"
+// deployment path /dev/periplous
+// periplous-logo-teliko-300x183.png
+// width="90" - normal logo layout
+// give player-top-bar zero padding -> p-0
+// give logo img div: d-flex align-items-center
+//      and background-color: #cfb698; height: 80px;
+// give the header class in styles a top border equal to the bottom one
+// in the index, give a title "Periplous Storytelling"
+
+// 
+// to make the app portable
+// 1. use the couch-attachment-to-file script to export selected experiences and store their media separately as files
+// 2. load experiences as json files into an assets folder (eg. experiences/)
+// 3. load their media into a sub-folder (eg. experiences/media/)
+// 4. import HttpClientModule to AppModule
+// 5. in couch-api service add HttpClient in the constructor and make the getExperience function return:
+//      this.http.get<Experience>('assets/experiences/' + id + '.json').toPromise();
+// 6. make the getAssetURL function in asset-manager service return:
+//      'assets/experiences/media/' + assetId;
+// 7. deployment path /storytelling
+
+// {
+//     path: 'intro/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f201f6ee'
+//   },
+//   {
+//     path: 'stop-1/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f114d'
+//   },
+//   {
+//     path: 'stop-2/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f18d3'
+//   },
+//   {
+//     path: 'stop-3/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20d66a4'
+//   },
+//   {
+//     path: 'stop-4/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f2ba2'
+//   },
+//   {
+//     path: 'stop-5/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20d71a4'
+//   },
+//   {
+//     path: 'stop-6/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f3360'
+//   },
+//   {
+//     path: 'stop-7/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f4356'
+//   },
+// {
+//     path: 'intro/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20249d1'
+//   },
+//   {
+//     path: 'stop-1/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f4ac9'
+//   },
+//   {
+//     path: 'stop-2/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f56c7'
+//   },
+//   {
+//     path: 'stop-3/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f5bbe'
+//   },
+//   {
+//     path: 'stop-4/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f68d2'
+//   },
+//   {
+//     path: 'stop-5/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f2102672'
+//   },
+//   {
+//     path: 'stop-6/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f2109f2a'
+//   },
+//   {
+//     path: 'stop-7/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f210a6a5'
+//   },
+// {
+//     path: 'intro/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f21186d3'
+//   },
+//   {
+//     path: 'stop-1/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f210e8e3'
+//   },
+//   {
+//     path: 'stop-2/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f210f3ef'
+//   },
+//   {
+//     path: 'stop-3/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f210f8cd'
+//   },
+//   {
+//     path: 'stop-4/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f210f9a3'
+//   },
+//   {
+//     path: 'stop-5/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f211017e'
+//   },
+//   {
+//     path: 'stop-6/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f21110b9'
+//   },
+//   {
+//     path: 'stop-7/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f21128cf'
+//   },
+// {
+//     path: 'intro',
+//     redirectTo: '/experience/d857b7476810e70452124c2a8d001ab1'
+//   },
+//   {
+//     path: 'stop-1',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f204883f'
+//   },
+//   {
+//     path: 'stop-2',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f2048857'
+//   },
+//   {
+//     path: 'stop-3',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f204c9a9'
+//   },
+//   {
+//     path: 'stop-4',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f204d630'
+//   },
+//   {
+//     path: 'stop-5',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20fba53'
+//   },
+//   {
+//     path: 'stop-6',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f204dea1'
+//   },
+//   {
+//     path: 'stop-7',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f204ea4c'
+//   },
+
+
+
+// SHORT (FINAL ON-BOARD) VERSION LINKS
+//   {
+//     path: 'stop-1/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f114d'
+//   },
+//   {
+//     path: 'stop-5/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20d71a4'
+//   },
+//   {
+//     path: 'stop-7/en',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f4356'
+//   },
+//   {
+//     path: 'stop-1/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20f4ac9'
+//   },
+//   {
+//     path: 'stop-5/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f2102672'
+//   },
+//   {
+//     path: 'stop-7/zh',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f210a6a5'
+//   },
+//   {
+//     path: 'stop-1/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f210e8e3'
+//   },
+//   {
+//     path: 'stop-5/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f211017e'
+//   },
+//   {
+//     path: 'stop-7/sgn',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f21128cf'
+//   },
+//   {
+//     path: 'stop-1',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f204883f'
+//   },
+//   {
+//     path: 'stop-5',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f20fba53'
+//   },
+//   {
+//     path: 'stop-7',
+//     redirectTo: '/experience/679292fae4b2a5fd8a256277f204ea4c'
+//   },

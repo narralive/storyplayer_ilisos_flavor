@@ -1,0 +1,56 @@
+// @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+// global config
+$body-bg: transparent;
+$body-font-family: 'Noto Sans Display', sans-serif !important;
+$body-font-weight: 400 !important;
+$body-font-color: unset;
+
+// player topbar
+$topbar-bg: #8c1f81 !important;
+$topbar-font-family: 'Noto Sans Display', sans-serif !important;
+$topbar-font-color: #f8f9fa !important;
+$topbar-font-weight: 600 !important;
+
+// player controls wrapper
+$player-footer-bg: transparent;
+
+// screen header
+$screen-header-bg: transparent;
+$screen-header-border-bottom: 1px solid #dee2e6 !important;
+$screen-header-font-family: 'Noto Sans Display', sans-serif !important;
+$screen-header-font-color: unset;
+$screen-header-font-weight: 400 !important;
+
+// prompt
+$prompt-font-color: unset;
+$prompt-font-weight: 400 !important;
+
+// list and tile items
+$list-item-bg: transparent !important;
+$list-item-hover-bg: rgba(140, 31, 129, 0.2) !important;
+$list-item-checked-bg: rgba(0, 123, 255, 0.1) !important;
+$list-item-border: 1px solid #8c1f81 !important;
+$list-item-border-radius: 3px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(112, 157, 51, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #8c1f81 !important;
+
+// guideme
+$guideme-prompt-bg: transparent;
+
+
+// redirect ** to /experience/679292fae4b2a5fd8a256277f202f20e
+// db = "experiences"
+// deployment path /dev/aria
+// logo: aria-logo-white-copy-150x150.png
+// width="60" - normal logo layout

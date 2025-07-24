@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap');
+
+// global config
+$body-bg: transparent;
+$body-font-family: 'Roboto', sans-serif !important;
+$body-font-weight: 400 !important;
+$body-font-color: #163b7d !important;
+
+// player topbar
+$topbar-bg: #163b7d !important;
+$topbar-font-family: 'STIX Two Text', serif !important;
+$topbar-font-color: #FECA6C !important;
+$topbar-font-weight: 400 !important;
+
+// player controls wrapper
+$player-footer-bg: transparent;
+
+// screen header
+$screen-header-bg: transparent;
+$screen-header-border-bottom: 1px solid #163b7d !important;
+$screen-header-font-family: 'Roboto', sans-serif !important;
+$screen-header-font-color: #163b7d !important;
+$screen-header-font-weight: 500 !important;
+
+// prompt
+$prompt-font-color: unset;
+$prompt-font-weight: 400 !important;
+
+// list and tile items
+$list-item-bg: transparent;
+$list-item-hover-bg: rgba(254, 202, 108, 0.7) !important;
+$list-item-checked-bg: rgba(153, 183, 241, 0.7) !important;
+$list-item-border: 2px solid #FECA6C !important;
+$list-item-border-radius: 3px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(112, 157, 51, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #163b7d !important;
+
+// guideme
+$guideme-prompt-bg: transparent;
+
+
+// epistoles
+// redirect ** to /experience/679292fae4b2a5fd8a256277f2093e83
+// db = "experiences"
+// deployment path /storytelling/epistoles
+// logo: Voeska-Logo-Yellow_edited.png
+// width="100" - normal logo layout
+// html title: Βοΐσκα - Ψηφιακές αφηγήσεις
+
+// makrygiannis
+// redirect ** to /experience/679292fae4b2a5fd8a256277f209764a
+// db = "experiences"
+// deployment path /storytelling/makrygiannis
+// logo: Voeska-Logo-Yellow_edited.png
+// width="100" - normal logo layout
+// html title: Βοΐσκα - Ψηφιακές αφηγήσεις

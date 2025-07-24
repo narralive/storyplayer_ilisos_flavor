@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&display=swap');
+
+// global config
+$body-bg: transparent;
+$body-font-family: 'Noto Sans Display', sans-serif !important;
+$body-font-weight: 300 !important;
+$body-font-color: unset;
+
+// player topbar
+$topbar-bg: #000 !important;
+$topbar-font-family: 'Noto Sans Display', sans-serif !important;
+$topbar-font-color: #fff !important;
+$topbar-font-weight: 400;
+
+// player controls wrapper
+$player-footer-bg: transparent;
+
+// screen header
+$screen-header-bg: transparent;
+$screen-header-border-bottom: 1px solid #3a3a3a !important;
+$screen-header-font-family: 'Noto Sans Display', sans-serif !important;
+$screen-header-font-color: unset;
+$screen-header-font-weight: 400 !important;
+
+// prompt
+$prompt-font-color: unset;
+$prompt-font-weight: 400;
+
+// list and tile items
+$list-item-bg: rgba(226, 233, 240, 0.2) !important;
+$list-item-hover-bg: rgba(226, 233, 240, 0.5) !important;
+$list-item-checked-bg: rgba(226, 233, 240, 0.5) !important;
+$list-item-border: 1px solid #000 !important;
+$list-item-border-radius: 3px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(93, 128, 36, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #000 !important;
+
+// guideme
+$guideme-prompt-bg: transparent;
+
+
+// redirect ** to /experience/679292fae4b2a5fd8a256277f206f2b8
+// db = "experiences"
+// deployment path /dev/my-eleusis
+// logo: myeleusis-logo.png
+// width="100" - normal logo layout

@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+// global config
+$body-bg: #c6c6b1 !important;
+$body-font-family: 'Open Sans', sans-serif !important;
+$body-font-weight: 400 !important;
+$body-font-color: unset;
+
+// player topbar
+$topbar-bg: #2e2618 !important;
+$topbar-font-family: 'Open Sans', sans-serif !important;
+$topbar-font-color: #f8f9fa !important;
+$topbar-font-weight: 400 !important;
+
+// player controls wrapper
+$player-footer-bg: $topbar-bg;
+
+// screen header
+$screen-header-bg: #797961;
+$screen-header-border-bottom: none;
+$screen-header-font-family: $body-font-family;
+$screen-header-font-color: white;
+$screen-header-font-weight: 500 !important;
+
+// prompt
+$prompt-font-color: unset;
+$prompt-font-weight: 400 !important;
+
+// list and tile items
+$list-item-bg: white !important;
+$list-item-hover-bg: #797961 !important;
+$list-item-checked-bg: #797961 !important;
+$list-item-border: unset;
+$list-item-border-radius: 15px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(112, 157, 51, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #343a40 !important;
+
+// guideme
+$guideme-prompt-bg: #dfd9ca;
+
+// additional classes used in the flavor 
+.bg-darker {
+    background-color: $screen-header-bg;
+  }
+
+.img-radius {
+    border-radius: 20px;
+}
+
+.text-container {
+    background-color: $body-bg;
+}
+
+.bigger-radius {
+    border-radius: 40px !important;
+}
+
+.branch:hover {
+    color: white;
+}
+
+@media (min-width: 200px) {
+    .experience-title {
+        font-size: 1.3rem !important;
+    }
+
+    .text-size, .bigger-radius {
+        font-size: 1.2rem !important;
+    }
+}
+
+@media (min-width: 768px) {
+    .experience-title {
+        font-size: 1.5rem !important;
+    }
+
+    .text-size, .bigger-radius {
+        font-size: 1.4rem !important;
+    }
+}
+
+.quotes-wrapper {
+    .quote {
+        .text-wrapper {
+            .name {
+                color: $topbar-bg;
+                font-size: 1rem !important;
+                font-weight: 700;
+                opacity: 1 !important;
+            }
+
+            .text {
+                padding: 5px 10px 5px 10px;
+                color: unset !important;
+                background: unset !important;
+            }
+        }
+    }
+}
+
+// redirect ** to /experience/679292fae4b2a5fd8a256277f216bf62
+// db = "experiences"
+// deployment path /dev/cluster
+// logo: default logo
+// default width - normal logo layout
+
+// changes in the player component html:
+// switch to the white svg icons for all controls and to the text-light class for the full screen toggle icons
+// add a conditional bg-darker class to the #screenWrapper to be activated when there is no image:
+//  [class.bg-darker]="!screen.branchList && !screen.image"
+
+// also adjust the display of the experience title
+
+// changes in simple screen html:
+// add the align-items-center class to the div containing the image, as well as conditional padding:
+// class="h-100 w-100 p-0 d-flex justify-content-around align-self-center align-items-center" style="min-height: 50px;"
+// [ngClass]="{ 'p-lg-5 p-2' : (data.text != null) && (data.text !== '') && (data.text !== '<br>') }"
+
+// add conditional img-radius class to the img tag
+// [class.img-radius]="(data.text != null) && (data.text !== '') && (data.text !== '<br>')"
+
+// add text-container py-4 px-lg-5 px-4 classes to the div containing the innerHtml
+// add conditional class to the same div that increases border-radius when there is no image
+// as shown here:
+// <div class="inner-html-font py-4 px-lg-5 px-4 text-container" [innerHTML]="data.text"
+//      [class.bigger-radius]="!data.image"></div>
+
+// use this map in guideme
+// L.tileLayer('https://api.mapbox.com/styles/v1/narralive/cm1128xi3018y01pj5m3je5zz/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibmFycmFsaXZlIiwiYSI6ImNsM2QzN3gyazAxM3kzaXBtN2R1enc1eTYifQ.iZ4kj22OZUq0lgFcHxk2qQ', {
+//    maxZoom: 21,
+//    attribution: '&copy; <a href="https://www.mapbox.com/about/maps/" target="_blank" title="Mapbox" aria-label="Mapbox">© Mapbox</a>  &copy; <a href="https://www.openstreetmap.org/about/" target="_blank" title="OpenStreetMap" aria-label="OpenStreetMap">OpenStreetMap</a>'
+// })
+
+// guideme polygon marker color
+// #76b571

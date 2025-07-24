@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+// global config
+$body-bg: transparent;
+$body-font-family: 'Roboto', sans-serif !important;
+$body-font-weight: 400 !important;
+$body-font-color: unset;
+
+// player topbar
+$topbar-bg: #392c4a;
+$topbar-font-family: 'Roboto', sans-serif !important;
+$topbar-font-color: #f8f9fa !important;
+$topbar-font-weight: 400 !important;
+
+// player controls wrapper
+$player-footer-bg: transparent;
+
+// screen header
+$screen-header-bg: transparent;
+$screen-header-border-bottom: 1px solid #5f5280 !important;
+$screen-header-font-family: 'Roboto', sans-serif !important;
+$screen-header-font-color: unset;
+$screen-header-font-weight: 500 !important;
+
+// prompt
+$prompt-font-color: unset;
+$prompt-font-weight: 400 !important;
+
+// list and tile items
+$list-item-bg: rgba(151, 137, 170, 0.3) !important;
+$list-item-hover-bg: rgba(151, 137, 170, 0.7) !important;
+$list-item-checked-bg: rgba(151, 137, 170, 0.9) !important;
+$list-item-border: unset;
+$list-item-border-radius: 3px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(112, 157, 51, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #392c4a !important;
+
+// guideme
+$guideme-prompt-bg: transparent;
+
+
+// redirect ** to /experience/c4313c264e0a895e11461eb5c001badd
+// db = "experiences"
+// deployment path /dev/echoes
+// logo: echoes-logo.png
+// width="60" - normal logo layout
+
+// guideme map
+// L.tileLayer('https://api.mapbox.com/styles/v1/narralive/cm1128xi3018y01pj5m3je5zz/tiles/256/{z}/{x}/{y}@2x?access_token=pk.eyJ1IjoibmFycmFsaXZlIiwiYSI6ImNsM2QzN3gyazAxM3kzaXBtN2R1enc1eTYifQ.iZ4kj22OZUq0lgFcHxk2qQ', {
+//    maxZoom: 21,
+//    attribution: '&copy; <a href="https://www.mapbox.com/about/maps/" target="_blank" title="Mapbox" aria-label="Mapbox">© Mapbox</a>  &copy; <a href="https://www.openstreetmap.org/about/" target="_blank" title="OpenStreetMap" aria-label="OpenStreetMap">OpenStreetMap</a>'
+// })
+
+// guideme polygon marker color: #fec62a
+
+// regex for detecting line to colorize in the db document:
+// <div><i>(.+?)</i>
+// color to add: #a493ba

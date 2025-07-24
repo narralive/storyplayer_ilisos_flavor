@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+// global config
+$body-bg: center / contain url('assets/images/czyste_jak_batyk_to_m_1.webp');
+$body-font-family: 'Roboto', sans-serif !important;
+$body-font-weight: 400 !important;
+$body-font-color: unset;
+
+// player topbar
+$topbar-bg: #343a40 !important;
+$topbar-font-family: 'Roboto', sans-serif !important;
+$topbar-font-color: #f8f9fa !important;
+$topbar-font-weight: 400 !important;
+
+// player controls wrapper
+$player-footer-bg: transparent;
+
+// screen header
+$screen-header-bg: transparent;
+$screen-header-border-bottom: 1px solid #dee2e6 !important;
+$screen-header-font-family: 'Roboto', sans-serif !important;
+$screen-header-font-color: unset;
+$screen-header-font-weight: 500 !important;
+
+// prompt
+$prompt-font-color: unset;
+$prompt-font-weight: 400 !important;
+
+// list and tile items
+$list-item-bg: rgba(215, 210, 210, 0.3) !important;
+$list-item-hover-bg: rgba(215, 210, 210, 0.7) !important;
+$list-item-checked-bg: rgba(215, 210, 210, 0.9) !important;
+$list-item-border: unset;
+$list-item-border-radius: 3px;
+
+// quiz responses
+$quiz-wrong-answer-bg: rgba(199, 120, 120, 0.7) !important;
+$quiz-correct-answer-bg: rgba(112, 157, 51, 0.7) !important;
+$quiz-wrong-answer-font-color: #5B0000FF !important;
+$quiz-correct-answer-font-color: #233B07FF !important;
+$quiz-wrong-answer-border: 1px solid #5B0000FF !important;
+$quiz-correct-answer-border: 1px solid #233B07FF !important;
+
+// simple screen - dominant element btn
+$dominant-element-bg: #343a40 !important;
+
+// guideme
+$guideme-prompt-bg: transparent;
+
+
+// redirectTo: '/experience/679292fae4b2a5fd8a256277f211dacf'
+// OR redirectTo: '/login'
+// db: museum_studies_2020
+// deployment path /dev/idkielce
+// logo: idkielce_logo.jpg // +++ set p-0 at the top-bar
+// width="120" - normal logo layout
